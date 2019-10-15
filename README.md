@@ -1,4 +1,4 @@
-# latihan 1
+﻿# latihan 1
 ## Tutorial Cara menggunakan giter
 ## Instalasi Git
 - pertama download terlebih dahulu git nya di (git-scm.com)
@@ -12,7 +12,7 @@
 - CONFIG GLOBAL REPO
 $ git config --global user.name “nama_user”
 $ git config --global user.email “nama_user”
-- ![Gitconfig](C:/Users/asus/Desktop/bahasa%20pemrograman/git%20config.png)
+- ![Gitconfig](https://github.com/kannahs/latihan1/blob/master/image/image0.png?raw=true)
 ## Membuat Repo lokal
 - Buka direktory aktif, misal: d:\labs_pemrograman1 (buka menggunakan Windows Explorer) 
 - klik kanan pada direktory aktif tersebut, dan pilih menu Git Bash, sehingga muncul git bash command
