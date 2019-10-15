@@ -20,7 +20,7 @@ $ git config --global user.email “nama_user”
 - $ mkdir latihan1 $ cd latihan1
 - Sehingga terbentuk satu direktori baru dibawahnya, selanjutnya masuk kedalam direktori tersebut dengan perintah cd (change directory)
 - direktory aktif menjadi: d:\labs_pemrograman1\latihan1
-- ![repolokal](C:/Users/user/Desktop/New%20folder/Capture12.PNG)File README.md berhasil dibuat. 
+- ![replokal](https://github.com/kannahs/latihan1/blob/master/image/image8.png)File README.md berhasil dibuat. 
 
 ## Membuat repo lokal 1.2
 - jalankan perintah git init,untuk membuat repo lokal
@@ -33,19 +33,19 @@ $ git config --global user.email “nama_user”
 - disini kita akan coba buat satu file bernama README.md (text file)
 - $ echo “#Latihan 1” >> README.md
 - File README.md berhasil dibuat. 
-- ![Filebaru](C:/Users/user/Desktop/New%20folder/Capture13.PNG)
+- ![latihan](https://github.com/kannahs/latihan1/blob/master/image/image5.png)
 
 ## Menambahkan File baru pada repository
 - Untuk menambahkan file yang baru saja dibuat tersebut gunakan perintah git add.
 - File README.md berhasil ditambahkan. 
 - $ git add README.md
-- ![Gitadd](C:/Users/user/Desktop/New%20folder/Capture3.PNG)
+- ![Gitadd](https://github.com/kannahs/latihan1/blob/master/image/image6.png)
 
 ## Commit (Menyimpan perubahan ke database)
 - Untuk menyimpan perubahan yang ada kedalam database repository local, gunakan perintah git commit -m “komentar commit”
 - Perubahan berhasil disimpan.
 - $ git commit -m “File pertama saya”
-- ![gitcommit](C:/Users/user/Desktop/New%20folder/Capture4.PNG)
+- ![gitcommit](https://github.com/kannahs/latihan1/blob/master/image/image7.png)
 ## Membuat repository server
 - Server reopsitory yang akan kita gunakan adalah http://github.com 
 - Anda harus membuat akun terlebih dahulu. 
@@ -54,13 +54,13 @@ $ git config --global user.email “nama_user”
 - Remote Repository merupakan repository server yang akan digunakan untuk menyimpan setiap perubahan pada local repository, sehingga dapat diakses oleh banyak user. 
 - Untuk menambahkan remote repository server, gunakan perintah git remote add origin [url]
 - $ git remote add origin https://github.com/.........
-- ![gitremoteaddorigin](C:/Users/user/Desktop/New%20folder/Capture6.PNG)
+- ![gitremoteaddorigin](https://github.com/kannahs/latihan1/blob/master/image/image1.png)
 ## Push (Mengirim perubahan ke server)
 - Untuk mengirim perubahan pada local repository ke server gunakan perintah git push.
 - Perintah ini akan meminta memasukkan username dan password pada akun github.com
 - $ git push -u origin master
-- ![gitpushorigin](C:/Users/user/Desktop/New%20folder/Capture7.PNG)
+- ![gitpushorigin](https://github.com/kannahs/latihan1/blob/master/image/image2.png)
 ## Clone Repository
 - Clone repository, pada dasarnya adalah meng-copy repository server dan secara otomatis membuat satu direktory sesuai dengan nama repositorynya (working directory).
 - Untuk melakukan cloning, gunakan perintah git clone [url]
-- ![clone](C:/Users/user/Desktop/New%20folder/Capture8.PNG)
+- ![clone](https://github.com/kannahs/latihan1/blob/master/image/image3.png)
